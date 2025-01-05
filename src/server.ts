@@ -34,18 +34,6 @@ function getServerContext() {
   const synchedIds = getIds(syncedIdsPath);
   const erroredIds = getIds(erroredIdsPath);
   const workouts = getWorkouts(outputPath);
-  console.log({
-    port,
-    clientId,
-    clientSecret,
-    redirectUri,
-    synchedIds,
-    erroredIds,
-
-    syncedIdsPath,
-    erroredIdsPath,
-    outputPath,
-  });
 
   return {
     port,
