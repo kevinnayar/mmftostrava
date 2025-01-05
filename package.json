@@ -28,5 +28,5 @@
     "zod": "^3.23.8"
   },
   "author": "Kevin Nayar",
-  "license": "ISC"
+  "license": "MIT"
 }
