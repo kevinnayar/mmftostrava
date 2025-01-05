@@ -54,4 +54,4 @@ Create a `.env` file in the project root copying sample.env and setting the foll
 - `PORT` - The port to run the server on (default: `3000`)
 - `STRAVA_CLIENT_ID` - The Strava client ID (required)
 - `STRAVA_CLIENT_SECRET` - The Strava client secret (required)
-- `STRAVA_REDIRECT_URI` - The Strava redirect URI (required)
+- `STRAVA_REDIRECT_URI` - The Strava redirect URI (required). Use `http://localhost:${process.env.PORT}/strava/auth/callback` unless you are running the server on a different port.
